@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+    <nav>
+        <div class="bar">
+            <li class="nav"><a href="bring-me-a-shrubbery.html">Shrubbery</a></li>
+            <li class="nav"><a href="recipe-book.html">Lasagna</a></li>
+            <li class="nav"><a href="borders.html">Borders</a></li>
+            <li class="nav"><a href="selectors.html">Class Selectors</a></li>
+        </div>
+    </nav><br>
+
+    <style>
+        div.bar {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li.nav {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 15px;
+
+        }
+
+        li a:hover {
+            background-color: #111;
+        }
+
+        /* used colors are: #222 #eee*/
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            background: #4d2d06;
+            font-family: Georgia, Times, serif;
+            color: #fff;
+            text-align: center;
+            font-size: 50px;
+        }
+
+        .first{
+            background-color: #24201f;
+        }
+
+        .second{
+            background-color: white;
+            color: #000;
+        }
+
+        .third {
+            background-color: #24201f;
+        }
+
+        .fourth{
+            background-color: white;
+            color: #000;
+        }
+        div{
+            margin: 30px 0;
+            padding: 30px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="first">
+        <h2>Primary Box</h2>
+        <p>Some text in the box</p>
+    </div>
+
+    <div class="second">
+        <h2>Secondary Box</h2>
+        <p>Some text in the box</p>
+    </div>
+
+    <div class="third">
+        <h2>Primary Box</h2>
+        <p>Some text in the box</p>
+    </div>
+
+    <div class="fourth">
+        <h2>Secondary Box</h2>
+        <p>Some text in the box</p>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" name="Alex" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Book</title>
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+    <nav>
+        <div class="bar">
+            <li class="nav"><a href="bring-me-a-shrubbery.html">Shrubbery</a></li>
+            <li class="nav"><a href="recipe-book.html">Lasagna</a></li>
+            <li class="nav"><a href="borders.html">Borders</a></li>
+            <li class="nav"><a href="selectors.html">Class Selectors</a></li>
+        </div>
+    </nav><br>
+
+    <style>
+        body {
+            background-color: #4D5656;
+            font-family: monospace;
+        }
+
+        h1 {
+            font-size: 35px;
+            font-style: italic;
+            color: #6E2C00;
+        }
+
+        li {
+            font-size: 15px;
+        }
+
+        h2 {
+            color: rgb(110, 44, 16);
+            font-size: 25px;
+        }
+
+        div.bar {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li.nav {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: rgb(126, 81, 9);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 15px;
+
+        }
+
+        li a:hover {
+            background-color: #111;
+        }
+
+        .container {
+            position: relative;
+            width: 50%;
+        }
+
+        .container:hover .overlay {
+            opacity: 1;
+        }
+
+        .textover {
+            color: white;
+            font-size: 300%;
+            font-family: monospace;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            transition: .5s ease;
+            background-color: rgba(0, 0, 0, 0.8);
+            border-radius: 100px;
+        }
+
+        .image {
+            display: block;
+            width: 100%;
+            height: auto;
+            border-radius: 100px;
+            opacity: 0.6;
+        }
+
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img src="Images/Lasagna.jpeg" alt="shrubbery" width="500px" height="300px" class="image">
+        <div class="overlay">
+            <div class="textover"><a href="https://www.allrecipes.com/video/672/worlds-best-lasagna/" target="blank"
+                    class="watch">Watch</a></div>
+        </div>
+    </div><br><br>
+    <hr>
+
+    <h1>World's best Lasagna</h1>
+    <h2>Ingredients</h2>
+    <table>
+        <ul>
+            <li>1 pound sweet Italian sausage</li>
+            <li>¾ pound lean ground beef</li>
+            <li>½ cup minced onion</li>
+            <li>2 cloves garlic, crushed</li>
+            <li>1 (28 ounce) can crushed tomatoes</li>
+            <li>2 (6 ounce) cans tomato paste</li>
+            <li>2 (6.5 ounce) cans canned tomato sauce</li>
+            <li>½ cup water</li>
+            <li>2 tablespoons white sugar</li>
+            <li>1 ½ teaspoons dried basil leaves</li>
+            <li>½ teaspoon fennel seeds</li>
+            <li>1 teaspoon Italian seasoning</li>
+            <li>1 ½ teaspoons salt, divided, or to taste</li>
+            <li>¼ teaspoon ground black pepper</li>
+            <li>4 tablespoons chopped fresh parsley</li>
+            <li>12 noodles lasagna noodles</li>
+            <li>16 ounces ricotta cheese</li>
+            <li>1 egg</li>
+            <li>¾ pound mozzarella cheese, sliced</li>
+            <li>¾ cup grated Parmesan cheese</li>
+        </ul>
+    </table>
+    <hr>
+
+    <h2>Preparation</h2>
+    <table>
+        <ol>
+            <li type="I"><b>step</b>
+                <p>In a Dutch oven, cook sausage, ground beef, onion, and garlic over medium heat until well browned.
+                    Stir in
+                    crushed tomatoes, tomato paste, tomato sauce, and water. Season with sugar, basil, fennel seeds,
+                    Italian
+                    seasoning, 1 teaspoon salt, pepper, and 2 tablespoons parsley. Simmer, covered, for about 1 1/2
+                    hours,
+                    stirring occasionally.</p>
+            </li>
+            <li type="I"><b>step</b>
+                <p>Bring a large pot of lightly salted water to a boil. Cook lasagna noodles in boiling water for 8 to
+                    10
+                    minutes. Drain noodles, and rinse with cold water. In a mixing bowl, combine ricotta cheese with
+                    egg,
+                    remaining parsley, and 1/2 teaspoon salt.</p>
+            </li>
+            <li type="I"><b>step</b>
+                <p>Preheat oven to 375 degrees F (190 degrees C).</p>
+            </li>
+            <li type="I"><b>step</b>
+                <p>To assemble, spread 1 1/2 cups of meat sauce in the bottom of a 9x13 inch baking dish. Arrange 6
+                    noodles
+                    lengthwise over meat sauce. Spread with one half of the ricotta cheese mixture. Top with a third of
+                    mozzarella cheese slices. Spoon 1 1/2 cups meat sauce over mozzarella, and sprinkle with 1/4 cup
+                    Parmesan
+                    cheese. Repeat layers, and top with remaining mozzarella and Parmesan cheese. Cover with foil: to
+                    prevent
+                    sticking, either spray foil with cooking spray, or make sure the foil does not touch the cheese.</p>
+            </li>
+            <li type="I"><b>step</b>
+                <p>Bake in preheated oven for 25 minutes. Remove foil, and bake an additional 25 minutes. Cool for 15
+                    minutes
+                    before serving.</p>
+            </li>
+        </ol>
+    </table>
+    <br>
+    <hr>
+    <footer>
+        <ion-icon name="logo-apple">Apple</ion-icon>
+        
+    </footer>
+    
+</body>
+
+</html>
